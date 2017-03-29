@@ -59,6 +59,6 @@ public class Manager extends Employee implements SalaryCalculate{
 
     public String toString()
     {
-        return super.toString() + "\tJob Title: " + jobTitle + "\tHours Worked: " + "\tHourly Rate: " + hourlyRate;
+        return super.toString() + " Job Title: " + jobTitle + " Hours Worked: " + hoursWorked + " Hourly Rate: " + hourlyRate;
     }
 }

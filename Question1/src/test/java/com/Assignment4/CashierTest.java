@@ -82,6 +82,5 @@ public class CashierTest {
     @After
     public void tearDown() throws Exception {
 
-
     }
 }

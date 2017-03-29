@@ -3,6 +3,8 @@ package com.Assignment4;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 import static org.junit.Assert.*;
 
@@ -10,49 +12,59 @@ import static org.junit.Assert.*;
  * Created by Ernst on 2017/03/28.
  */
 public class EmployeeTest {
-   /* @Before
-    public void setUp() throws Exception {
 
-    }
+    private Employee emp;
 
-    @After
-    public void tearDown() throws Exception {
-
-    }
-
-    @Test
-    public void setEmpID() throws Exception {
-
+    @Before
+    public void setUpEmployee(){
+        ApplicationContext empCtx = new AnnotationConfigApplicationContext(AppConfig.class);
+        emp = (Employee)empCtx.getBean("employee");
     }
 
     @Test
-    public void setName() throws Exception {
-
+    public void testSetEmpID() throws Exception{
+        emp.setEmpID("m1");
+        assertEquals("m1", emp.getEmpID());
     }
 
     @Test
-    public void setSurname() throws Exception {
-
+    public void testSetName() throws Exception{
+        emp.setName("Ernst");
+        assertEquals("Ernst", emp.getName());
     }
 
     @Test
-    public void getEmpID() throws Exception {
-
+    public void testSetSurname() throws Exception{
+        emp.setSurname("Chapman");
+        assertEquals("Chapman", emp.getSurname());
     }
 
     @Test
-    public void getName() throws Exception {
-
+    public void testGetEmpID() throws Exception{
+        emp.setEmpID("m1");
+        assertEquals("m1", emp.getEmpID());
     }
 
     @Test
-    public void getSurname() throws Exception {
-
+    public void testGetName() throws Exception{
+        emp.setName("Ernst");
+        assertEquals("Ernst", emp.getName());
     }
 
     @Test
-    public void toString() throws Exception {
-
+    public void testGetSurname() throws Exception{
+        emp.setSurname("Chapman");
+        assertEquals("Chapman", emp.getSurname());
     }
-*/
+
+    @Test
+    public void testToString() throws Exception{
+        emp.setEmpID("m1");
+        emp.setName("Ernst");
+        emp.setSurname("Chapman");
+
+        assertEquals("Employee ID: m1 Name: Ernst Surname: Chapman", emp.toString());
+    }
+
+
 }
