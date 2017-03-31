@@ -46,7 +46,7 @@ public class DisplayTest {
 
     @Test
     public void confirmationMessage() throws Exception {
-      
+
     }
 
 }
