@@ -1,12 +1,14 @@
 package com.Assignment4;
 
+import com.Assignment4.AppConfig;
+import com.Assignment4.Manager;
+import com.Assignment4.SalaryCalculate;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-import static org.junit.Assert.*;
 import static org.junit.Assert.assertEquals;
 
 /**
@@ -18,6 +20,8 @@ public class ManagerTest {
 
     private Manager man;
 
+    private Employee emp;
+
     @Before
     public void setUp() throws Exception {
         ApplicationContext salaryCtx = new AnnotationConfigApplicationContext(AppConfig.class);
@@ -28,6 +32,12 @@ public class ManagerTest {
     public void setUpManager() throws Exception{
         ApplicationContext manCtx = new AnnotationConfigApplicationContext(AppConfig.class);
         man = (Manager) manCtx.getBean("manager");
+    }
+
+    @Before
+    public void setUpEmployee() throws Exception{
+        ApplicationContext empCtx = new AnnotationConfigApplicationContext(AppConfig.class);
+        emp = (Employee)empCtx.getBean("employee");
     }
 
     @Test
@@ -73,11 +83,33 @@ public class ManagerTest {
     }
 
     @Test
+    public void testGetEmpID() throws Exception{
+        emp.setEmpID("m1");
+        assertEquals("m1", emp.getEmpID());
+    }
+
+    @Test
+    public void testGetName() throws Exception{
+        emp.setName("Alan");
+        assertEquals("Alan", emp.getName());
+    }
+
+    @Test
+    public void testGetSurname() throws Exception{
+        emp.setSurname("Chapman");
+        assertEquals("Chapman", emp.getSurname());
+    }
+
+    @Test
     public void testToString() throws Exception {
 
-        man = new Manager("m1","Ernst","Chapman","Manager",35.0,8);
+        emp.setEmpID("m1");
+        emp.setName("Alan");
+        emp.setSurname("Chapman");
 
-        assertEquals("Employee ID: m1 Name: Ernst Surname: Chapman Job Title: Manager Hours Worked: 8 Hourly Rate: 35.0",man.toString());
+        man = new Manager(emp,"Manager",35.0,8);
+
+        assertEquals("Employee ID: m1 Name: Alan Surname: Chapman Job Title: Manager Hours Worked: 8 Hourly Rate: 35.0",man.toString());
     }
 
     @After

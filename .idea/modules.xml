@@ -2,8 +2,29 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Question3/DIP/DIP.iml" filepath="$PROJECT_DIR$/Question3/DIP/DIP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Question3/ISP/ISP.iml" filepath="$PROJECT_DIR$/Question3/ISP/ISP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Question3/LSP/LSP.iml" filepath="$PROJECT_DIR$/Question3/LSP/LSP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Question3/OCP/OCP.iml" filepath="$PROJECT_DIR$/Question3/OCP/OCP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Question3/SRP/Obeyed/Obeyed.iml" filepath="$PROJECT_DIR$/Question3/SRP/Obeyed/Obeyed.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Question3/OCP/Obeyed01/Obeyed01.iml" filepath="$PROJECT_DIR$/Question3/OCP/Obeyed01/Obeyed01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Question3/LSP/Obeyed02/Obeyed02.iml" filepath="$PROJECT_DIR$/Question3/LSP/Obeyed02/Obeyed02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Question3/DIP/Obeyed03/Obeyed03.iml" filepath="$PROJECT_DIR$/Question3/DIP/Obeyed03/Obeyed03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Question3/ISP/Obeyed04/Obeyed04.iml" filepath="$PROJECT_DIR$/Question3/ISP/Obeyed04/Obeyed04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Question3/PLK/Obeyed05/Obeyed05.iml" filepath="$PROJECT_DIR$/Question3/PLK/Obeyed05/Obeyed05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Question/PLK/Obeyed05/Obeyed05 (1).iml" filepath="$PROJECT_DIR$/Question/PLK/Obeyed05/Obeyed05 (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/Question3/PLK/PLK.iml" filepath="$PROJECT_DIR$/Question3/PLK/PLK.iml" />
       <module fileurl="file://$PROJECT_DIR$/Question1/Question1.iml" filepath="$PROJECT_DIR$/Question1/Question1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Question2/Question2.iml" filepath="$PROJECT_DIR$/Question2/Question2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Question3/Question3.iml" filepath="$PROJECT_DIR$/Question3/Question3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Question4/Question4.iml" filepath="$PROJECT_DIR$/Question4/Question4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Question3/SRP/SRP.iml" filepath="$PROJECT_DIR$/Question3/SRP/SRP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Question3/SRP/Violated/Violated.iml" filepath="$PROJECT_DIR$/Question3/SRP/Violated/Violated.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Question3/OCP/Violated01/Violated01.iml" filepath="$PROJECT_DIR$/Question3/OCP/Violated01/Violated01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Question3/LSP/Violated02/Violated02.iml" filepath="$PROJECT_DIR$/Question3/LSP/Violated02/Violated02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Question3/DIP/Violated03/Violated03.iml" filepath="$PROJECT_DIR$/Question3/DIP/Violated03/Violated03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Question3/ISP/Violated04/Violated04.iml" filepath="$PROJECT_DIR$/Question3/ISP/Violated04/Violated04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Question3/PLK/Violated05/Violated05.iml" filepath="$PROJECT_DIR$/Question3/PLK/Violated05/Violated05.iml" />
     </modules>
   </component>
 </project>

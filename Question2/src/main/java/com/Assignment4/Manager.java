@@ -3,20 +3,22 @@ package com.Assignment4;
 /**
  * Created by Ernst on 2017/03/28.
  */
-public class Manager extends Employee implements SalaryCalculate{
+public class Manager implements SalaryCalculate{
 
     private String jobTitle;
     private double hourlyRate;
     private int hoursWorked;
+
+    Employee emp;
 
     public Manager()
     {
 
     }
 
-    public Manager(String empID, String name, String surname, String jobTitle, double hourlyRate, int hoursWorked)
+    public Manager(Employee emp, String jobTitle, double hourlyRate, int hoursWorked)
     {
-        super(empID, name, surname);
+        this.emp = emp;
         this.jobTitle = jobTitle;
         this.hourlyRate = hourlyRate;
         this.hoursWorked = hoursWorked;
@@ -57,8 +59,23 @@ public class Manager extends Employee implements SalaryCalculate{
         return hWorked * hRate;
     }
 
+    public String getEmpID()
+    {
+        return emp.getEmpID();
+    }
+
+    public String getName()
+    {
+        return emp.getName();
+    }
+
+    public String getSurname()
+    {
+        return emp.getSurname();
+    }
+
     public String toString()
     {
-        return super.toString() + " Job Title: " + jobTitle + " Hours Worked: " + hoursWorked + " Hourly Rate: " + hourlyRate;
+        return emp.toString() + " Job Title: " + jobTitle + " Hours Worked: " + hoursWorked + " Hourly Rate: " + hourlyRate;
     }
 }

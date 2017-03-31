@@ -8,13 +8,15 @@ public class App
 {
     public static void main( String[] args ){
 
-        int hoursWorked = 8;
+        Employee empCash = new Employee("c1","Ernst","Chapman");
+        Employee empMan = new Employee("m1","Alan","Chapman");
 
-        Cashier cashier = new Cashier("c1", "Ernst", "Chapman", "Cashier",19 ,0 );
-        Manager manager = new Manager("m1","Alan","Chapman","Manager",35,0);
 
-        System.out.println(cashier.toString() + "\tSalary: " + cashier.calculateSalary(hoursWorked, cashier.getHourlyRate()));
+        Cashier cashier = new Cashier(empCash, "Cashier",19 ,8 );
+        Manager manager = new Manager(empMan,"Manager",35,8);
 
-        System.out.println(manager.toString() + "\tSalary: " + manager.calculateSalary(hoursWorked, manager.getHourlyRate()));
+        System.out.println(cashier.toString() + "\tSalary: " + cashier.calculateSalary(cashier.getHoursWorked(), cashier.getHourlyRate()));
+
+        System.out.println(manager.toString() + "\tSalary: " + manager.calculateSalary(manager.getHoursWorked(), manager.getHourlyRate()));
     }
 }

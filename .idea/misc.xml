@@ -6,6 +6,28 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Question2/pom.xml" />
         <option value="$PROJECT_DIR$/Question1/pom.xml" />
+        <option value="$PROJECT_DIR$/Question3/pom.xml" />
+        <option value="$PROJECT_DIR$/Question/SRP/pom.xml" />
+        <option value="$PROJECT_DIR$/Question3/SRP/pom.xml" />
+        <option value="$PROJECT_DIR$/Question3/OCP/pom.xml" />
+        <option value="$PROJECT_DIR$/Question3/LSP/pom.xml" />
+        <option value="$PROJECT_DIR$/Question3/DIP/pom.xml" />
+        <option value="$PROJECT_DIR$/Question3/ISP/pom.xml" />
+        <option value="$PROJECT_DIR$/Question3/PLK/pom.xml" />
+        <option value="$PROJECT_DIR$/Question3/SRP/Violated/pom.xml" />
+        <option value="$PROJECT_DIR$/Question3/SRP/Obeyed/pom.xml" />
+        <option value="$PROJECT_DIR$/Question3/OCP/Violated01/pom.xml" />
+        <option value="$PROJECT_DIR$/Question3/OCP/Obeyed01/pom.xml" />
+        <option value="$PROJECT_DIR$/Question3/LSP/Obeyed02/pom.xml" />
+        <option value="$PROJECT_DIR$/Question3/LSP/Violated02/pom.xml" />
+        <option value="$PROJECT_DIR$/Question3/DIP/Obeyed03/pom.xml" />
+        <option value="$PROJECT_DIR$/Question3/DIP/Violated03/pom.xml" />
+        <option value="$PROJECT_DIR$/Question3/ISP/Obeyed04/pom.xml" />
+        <option value="$PROJECT_DIR$/Question3/ISP/Violated04/pom.xml" />
+        <option value="$PROJECT_DIR$/Question/PLK/Obeyed05/pom.xml" />
+        <option value="$PROJECT_DIR$/Question3/PLK/Violated05/pom.xml" />
+        <option value="$PROJECT_DIR$/Question3/PLK/Obeyed05/pom.xml" />
+        <option value="$PROJECT_DIR$/Question4/pom.xml" />
       </list>
     </option>
   </component>
