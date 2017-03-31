@@ -2,7 +2,6 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Question/PLK/Obeyed05" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Question1" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Question2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Question3" charset="UTF-8" />
@@ -25,5 +24,13 @@
     <file url="file://$PROJECT_DIR$/Question3/SRP/Obeyed" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Question3/SRP/Violated" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Question4" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Question4/Obeyed/Car" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Question4/Obeyed/Display" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Question4/Obeyed/Manufacturer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Question4/Obeyed06" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Question4/Obeyed06/Display" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Question4/Obeyed06/User" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Question4/Obeyed06/UserAuthentication" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Question4/Violated06" charset="UTF-8" />
   </component>
 </project>

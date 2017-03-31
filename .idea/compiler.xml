@@ -6,15 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Car" />
         <module name="DIP" />
         <module name="ISP" />
         <module name="LSP" />
+        <module name="Manufacturer" />
         <module name="Obeyed" />
         <module name="Obeyed01" />
         <module name="Obeyed02" />
         <module name="Obeyed03" />
         <module name="Obeyed04" />
         <module name="Obeyed05" />
+        <module name="Obeyed06" />
         <module name="OCP" />
         <module name="PLK" />
         <module name="Question1" />
@@ -27,13 +30,17 @@
         <module name="Violated03" />
         <module name="Violated04" />
         <module name="Violated05" />
+        <module name="Violated06" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Assignment4" target="1.5" />
+      <module name="Car" target="1.5" />
       <module name="DIP" target="1.5" />
+      <module name="Display" target="1.5" />
       <module name="ISP" target="1.5" />
       <module name="LSP" target="1.5" />
+      <module name="Manufacturer" target="1.5" />
       <module name="Obeyed" target="1.5" />
       <module name="Obeyed (1)" target="1.5" />
       <module name="Obeyed01" target="1.5" />
@@ -42,6 +49,7 @@
       <module name="Obeyed04" target="1.5" />
       <module name="Obeyed05" target="1.5" />
       <module name="Obeyed05 (1)" target="1.5" />
+      <module name="Obeyed06" target="1.5" />
       <module name="OCP" target="1.5" />
       <module name="PLK" target="1.5" />
       <module name="Question1" target="1.5" />
@@ -55,6 +63,7 @@
       <module name="Violated03" target="1.5" />
       <module name="Violated04" target="1.5" />
       <module name="Violated05" target="1.5" />
+      <module name="Violated06" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

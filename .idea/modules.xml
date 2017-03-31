@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/Question3/DIP/Obeyed03/Obeyed03.iml" filepath="$PROJECT_DIR$/Question3/DIP/Obeyed03/Obeyed03.iml" />
       <module fileurl="file://$PROJECT_DIR$/Question3/ISP/Obeyed04/Obeyed04.iml" filepath="$PROJECT_DIR$/Question3/ISP/Obeyed04/Obeyed04.iml" />
       <module fileurl="file://$PROJECT_DIR$/Question3/PLK/Obeyed05/Obeyed05.iml" filepath="$PROJECT_DIR$/Question3/PLK/Obeyed05/Obeyed05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Question4/Obeyed06/Obeyed06.iml" filepath="$PROJECT_DIR$/Question4/Obeyed06/Obeyed06.iml" />
       <module fileurl="file://$PROJECT_DIR$/Question3/PLK/PLK.iml" filepath="$PROJECT_DIR$/Question3/PLK/PLK.iml" />
       <module fileurl="file://$PROJECT_DIR$/Question1/Question1.iml" filepath="$PROJECT_DIR$/Question1/Question1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Question2/Question2.iml" filepath="$PROJECT_DIR$/Question2/Question2.iml" />
@@ -24,6 +25,7 @@
       <module fileurl="file://$PROJECT_DIR$/Question3/DIP/Violated03/Violated03.iml" filepath="$PROJECT_DIR$/Question3/DIP/Violated03/Violated03.iml" />
       <module fileurl="file://$PROJECT_DIR$/Question3/ISP/Violated04/Violated04.iml" filepath="$PROJECT_DIR$/Question3/ISP/Violated04/Violated04.iml" />
       <module fileurl="file://$PROJECT_DIR$/Question3/PLK/Violated05/Violated05.iml" filepath="$PROJECT_DIR$/Question3/PLK/Violated05/Violated05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Question4/Violated06/Violated06.iml" filepath="$PROJECT_DIR$/Question4/Violated06/Violated06.iml" />
     </modules>
   </component>
 </project>
