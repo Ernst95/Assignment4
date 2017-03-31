@@ -1,8 +1,6 @@
-package com.Assignment;
+package com.Assignment4;
 
-import com.Assignment4.Authentication;
-import com.Assignment4.Display;
-import com.Assignment4.User;
+
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -18,12 +16,4 @@ public class AppConfig {
         return  new Authentication() ;
     }
 
-    @Bean(name = "dsiplay")
-    public Display getDisplay()
-    {
-        return new Display();
-    }
-
-    @Bean(name = "user")
-    public User getUser(){return new User("Ernst", "1234");};
 }

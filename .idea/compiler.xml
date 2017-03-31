@@ -6,8 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Authentication" />
         <module name="Car" />
         <module name="DIP" />
+        <module name="Display" />
         <module name="ISP" />
         <module name="LSP" />
         <module name="Manufacturer" />
@@ -24,6 +26,7 @@
         <module name="Question2" />
         <module name="Question4" />
         <module name="SRP" />
+        <module name="User" />
         <module name="Violated" />
         <module name="Violated01" />
         <module name="Violated02" />
@@ -35,6 +38,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Assignment4" target="1.5" />
+      <module name="Authentication" target="1.5" />
       <module name="Car" target="1.5" />
       <module name="DIP" target="1.5" />
       <module name="Display" target="1.5" />
@@ -57,6 +61,7 @@
       <module name="Question3" target="1.5" />
       <module name="Question4" target="1.5" />
       <module name="SRP" target="1.5" />
+      <module name="User" target="1.5" />
       <module name="Violated" target="1.5" />
       <module name="Violated01" target="1.5" />
       <module name="Violated02" target="1.5" />

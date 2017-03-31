@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Question4/Obeyed06/Authentication/Authentication.iml" filepath="$PROJECT_DIR$/Question4/Obeyed06/Authentication/Authentication.iml" />
       <module fileurl="file://$PROJECT_DIR$/Question3/DIP/DIP.iml" filepath="$PROJECT_DIR$/Question3/DIP/DIP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Question4/Obeyed06/Display/Display.iml" filepath="$PROJECT_DIR$/Question4/Obeyed06/Display/Display.iml" />
       <module fileurl="file://$PROJECT_DIR$/Question3/ISP/ISP.iml" filepath="$PROJECT_DIR$/Question3/ISP/ISP.iml" />
       <module fileurl="file://$PROJECT_DIR$/Question3/LSP/LSP.iml" filepath="$PROJECT_DIR$/Question3/LSP/LSP.iml" />
       <module fileurl="file://$PROJECT_DIR$/Question3/OCP/OCP.iml" filepath="$PROJECT_DIR$/Question3/OCP/OCP.iml" />
@@ -19,6 +21,7 @@
       <module fileurl="file://$PROJECT_DIR$/Question3/Question3.iml" filepath="$PROJECT_DIR$/Question3/Question3.iml" />
       <module fileurl="file://$PROJECT_DIR$/Question4/Question4.iml" filepath="$PROJECT_DIR$/Question4/Question4.iml" />
       <module fileurl="file://$PROJECT_DIR$/Question3/SRP/SRP.iml" filepath="$PROJECT_DIR$/Question3/SRP/SRP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Question4/Obeyed06/User/User.iml" filepath="$PROJECT_DIR$/Question4/Obeyed06/User/User.iml" />
       <module fileurl="file://$PROJECT_DIR$/Question3/SRP/Violated/Violated.iml" filepath="$PROJECT_DIR$/Question3/SRP/Violated/Violated.iml" />
       <module fileurl="file://$PROJECT_DIR$/Question3/OCP/Violated01/Violated01.iml" filepath="$PROJECT_DIR$/Question3/OCP/Violated01/Violated01.iml" />
       <module fileurl="file://$PROJECT_DIR$/Question3/LSP/Violated02/Violated02.iml" filepath="$PROJECT_DIR$/Question3/LSP/Violated02/Violated02.iml" />

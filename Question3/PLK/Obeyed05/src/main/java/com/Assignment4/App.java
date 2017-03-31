@@ -8,7 +8,9 @@ public class App
 {
     public static void main( String[] args )
     {
-        Computer computer = new Computer();
-        System.out.println( computer.print() );
+        Pizza pizza = new Pizza();
+        PLKDemo demo = new PLKDemo();
+
+        demo.goodExamples(pizza);
     }
 }
